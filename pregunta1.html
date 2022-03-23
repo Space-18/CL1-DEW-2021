@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pregunta 01</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+<body>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Login</h1>
+			</div>
+			<div class="login-form">
+				<div class="control-group">
+					<input id="usuario" type="text" placeholder="username">
+				</div>
+				<div class="control-group">
+					<input id="contraseña" type="password" placeholder="password">
+				</div>
+				<input class="boton" type="button" value="Login" onclick="validar()">
+			</div>
+		</div>
+	</div>
+</body>
+	<script>
+		var المستعمل = "CIBER01";
+		var كلمه = "DEW2020";
+
+		function validar(){
+		var user = document.getElementById("usuario").value;
+		var pass = document.getElementById("contraseña").value;
+
+		if(user==المستعمل && pass==كلمه){
+			alert("Hola sujeto de prueba, BIENVENIDO");
+		}
+		else{
+			alert("Usted no es sujeto de prueba, VUELVA A INTENTARLO...");
+		}
+	}
+	</script>
+</html>

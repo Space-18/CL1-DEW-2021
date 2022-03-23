@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  color: white;
+  background: #1f1f1f;
+}
+.contenedor{
+  width: 90%;
+  margin-left: 5%;
+  background: #241830;
+}
+.texto{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.contenedor h2{
+  text-align: center;
+  color: red;
+}
+header h1{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background: #302733;
+  padding-bottom: 19px;
+}
+.simbolos {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+.simbolos div{
+  display: inline-flex;
+}
+.simbolos div a{
+  font-size: 190px;
+  text-align: center;
+  display: inline-flex;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.simbolos div a:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.Marcador{
+  text-align: center;
+}
+.Marcador h3{
+  font-size: 30px;
+}
+footer{
+  width: 90%;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  background: #302733;
+  margin-left: 5%;
+}

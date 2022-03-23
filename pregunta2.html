@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pregunta 02</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2 id="titulo">Up: Una Aventura de Altura</h2>
+
+<!--Vista Principal-->
+
+<img id="foto" src="images/pelicula1.jpg">
+<hr>
+
+<!--miniaturas-->
+
+<img src="images/pelicula1.jpg" width="100" onclick="mostrar1()">
+<img src="images/pelicula2.jpg" width="100" onclick="mostrar2()">
+<img src="images/pelicula3.jpg" width="100" onclick="mostrar3()">
+
+<!-- ================================== -->
+<hr>
+<p>Largometraje animado de Disney Pixar que cuenta la emocionante historia un
+	hombre mayor que se embarca en un viaje a Sudamérica para cumplir el sueño de
+	su difunta esposa en compañía de un niño.</p>
+
+</body>
+<script>
+    var title = document.getElementById("titulo");
+    var image = document.getElementById("foto");
+
+    function mostrar1(){
+        title.innerHTML = "Up: Una Aventura de Altura --- Escena uno";
+        image.src = "images/pelicula1.jpg";
+
+    }
+    function mostrar2(){
+        title.innerHTML = "Up: Una Aventura de Altura --- Escena dos";
+        image.src = "images/pelicula2.jpg";
+    }
+    function mostrar3(){
+        title.innerHTML = "Up: Una Aventura de Altura --- Escena tres";
+        image.src = "images/pelicula3.jpg";
+    }
+  </script>
+</html>
